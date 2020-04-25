@@ -6,10 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] FirstArray = {1, 15, 20};
-        System.out.println("First array: " + Arrays.toString(FirstArray));
+        int[] firstArray = {1, 15, 20};
+        System.out.println("First array: " + Arrays.toString(firstArray));
 
-        int[] SecondArray = Arrays.copyOf(FirstArray, 3);
-        System.out.println("Second array: " + Arrays.toString(SecondArray));
+        int[] secondArray = Arrays.copyOf(firstArray, 3);
+        System.out.println("Second array: " + Arrays.toString(secondArray));
     }
 }
